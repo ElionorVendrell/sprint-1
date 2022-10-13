@@ -1,0 +1,355 @@
+*{
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.padre {
+    background-color: white;
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+}
+
+.header {
+    background:url(../images/header.jpg);
+    background-size: scale(1.1);
+    background-position: -31rem 52%;
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    height: 5rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all(0.3);
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    color: grey;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.icon-inicio {
+    margin-top: -13px;
+    margin-left: -35px;
+    position: absolute;
+    width: 2.5rem;
+}
+
+.icon-rutas {
+    margin-top: -13px;
+    margin-left: -35px;
+    position: absolute;
+    width: 2.4rem;
+}
+
+.icon-hoteles {
+    margin-top: -10px;
+    margin-left: -35px;
+    position: absolute;
+    width: 2.3rem;
+}
+
+.icon-vuelos {
+    margin-top: -11px;
+    margin-left: -35px;
+    position: absolute;
+    width: 2.2rem;
+}
+
+.icon-contacto {
+    margin-top: -10px;
+    margin-left: -35px;
+    position: absolute;
+    width: 2.3rem;
+}
+
+#inicio:hover {
+    cursor: pointer;
+    color: #f07b3f;
+    transform: scale(1.1);
+    transition: all(0.3);
+}
+
+#rutas:hover {
+    cursor: pointer;
+    color: #f07b3f;
+    transform: scale(1.1);
+    transition: all(0.3);
+}
+
+#hoteles:hover {
+    cursor: pointer;
+    color: #f07b3f;
+    transform: scale(1.1);
+    transition: all(0.3);
+}
+
+#vuelos:hover {
+    cursor: pointer;
+    color: #f07b3f;
+    transform: scale(1.1);
+    transition: all(0.3);
+}
+
+#contacto:hover {
+    cursor: pointer;
+    color: #f07b3f;
+    transform: scale(1.1);
+    transition: all(0.3);
+}
+
+.social {
+    display: flex;
+}
+
+.icon-instagram {
+    width: 3rem;
+}
+
+.icon-facebook {
+    width: 3rem;
+}
+
+.icon-instagram:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all(0.3);
+}
+
+.icon-facebook:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all(0.3);
+}
+
+.rectangulo-header {
+    background-color: grey;
+    width: 50rem;
+    opacity: 0.1;
+    padding: 4.5rem;
+    margin-bottom: -6.7rem;
+}
+
+h1 {
+    color: #f07b3f;
+    font-family: 'Cormorant Garamond';
+    opacity: 0.7;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 360px
+}
+
+.articulos {
+    background-color: rgb(220, 220, 220);
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.article {
+    background-color: white;
+    flex: 1 1 40%;
+}
+
+.sakura {
+    width: 100%;
+    margin-top: -4px;
+    margin-left: 1px;
+}
+
+.comida {
+    width: 100%;
+    margin-top: -4px;
+    margin-left: 1px;
+}
+
+.fuji {
+    width: 100%;
+    margin-top: -4px;
+    margin-left: 1px;
+}
+
+.noche {
+    width: 100%;
+    margin-top: -4px;
+    margin-left: 1px;
+}
+
+.rectangle {
+    background-color: rgb(187, 127, 137);
+    padding: 15px;
+    margin-top: -62px;
+}
+
+h3 {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 30px;
+    color: white;
+    font-weight: 350;
+    position: relative;
+}
+
+.texto-encima {
+    margin-top: -60px;
+    color: white;
+}
+
+.texto-articulo {
+    margin-top: -20px;
+    margin-left: -18px;
+    margin-right: 5px;
+    column-count: 2;
+    column-width: 130px;
+    column-gap: 2px;
+}
+
+.parrafo {
+    font-size: 0.9rem;
+    text-align: start;
+}
+
+.navegacion {
+    background-color: rgb(220, 220, 220);
+    flex: 1 1 100%;
+    font-size: 0.9rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.aside {
+    background-color: rgb(220, 220, 220);
+    flex: 1 1 auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Cormorant Garamond';
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 94%;
+    padding: 10px;
+    margin-top: -20px;
+
+}
+
+.pie {
+    color: black;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+@media all and (min-width:701px) and (max-width:1020px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media all and (max-width:700px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articulos {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .texto-articulo {
+        margin-top: -20px;
+        margin-left: -18px;
+        margin-right: 5px;
+        column-count: 1;
+        column-width: 150px;
+        column-gap: 2px;
+    }
+
+    .aside {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: stretch;
+    }
+
+    .header {
+        background: url(../images/header.jpg);
+        background-position: -31rem 52%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .menu {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .social {
+        display: flex;
+        order: 3;
+    }
+
+    .logo {
+        display: flex;
+        height: 5rem;
+        order: 0;
+        align-content: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+        color: grey;
+        text-align: center;
+        margin-left: 80px;
+        order: 0;
+    }
+}
